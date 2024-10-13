@@ -1,0 +1,80 @@
+
+:root {
+  --colorDeLetrasOscuras: rgb(48, 48, 48);
+  --colorDeLetrasClaras: rgb(255, 255, 255);
+  --colorDeFondo: rgb(52, 52, 52);/*CAMBIAR ESTO*/
+  --colorDeFondosSecciones: rgb(33, 33, 33);
+}
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+body{
+    background-color: white;
+    color: var(--colorDeLetrasOscuras);
+    font-family: Arial, sans-serif;
+    line-height: 1.8;
+}
+
+header {
+    background: var(--colorDeFondo);
+    color: var(--colorDeLetrasClaras);
+    text-align: center;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    display: inline;
+    margin: 0 15px;
+}
+
+a{
+    color: #fff;
+}
+
+a:hover {
+    color: #fff;
+    text-decoration: none;
+}
+
+p, h2, h3{
+    color: var(--colorDeLetrasClaras);
+}
+
+section {
+    margin: 2%;
+    padding: 5%;
+    background-color: var(--colorDeFondosSecciones);
+}
+
+.deImagen{
+    text-align: center;
+}
+
+img{
+    width: 400px;
+    height: 400px;
+}
+
+.resaltador{
+    font-family: 'Times New Roman', Times, serif;
+    color: rgb(0, 0, 255);
+}
+
+.resaltador2 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(255, 109, 133);
+}
+
+.colorNombre{
+    color: rgb(153, 0, 255);
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
